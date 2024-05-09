@@ -26,6 +26,7 @@ Setup the `.env` file, if does not exist copy it from .env.example and rename it
 Run
 ```bash
   php artisan key:generate
+  php artisan jwt:secret
 ```
 
 Configure database settings in the .env file:
